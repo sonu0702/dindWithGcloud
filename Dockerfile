@@ -5,7 +5,7 @@ ENV CLOUD_SDK_VERSION 319.0.0
 ENV PATH /google-cloud-sdk/bin:$PATH
 RUN apk --no-cache add \
         curl \
-        python \
+        py-pip \
         py-crcmod \
         bash \
         libc6-compat \
